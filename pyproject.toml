@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "modul14"
+version = "0.1.0"
+description = ""
+authors = ["Rebutti <misha.ovsov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.11.1"
+requests = "^2.28.1"
+sqlalchemy = "^1.4.42"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
